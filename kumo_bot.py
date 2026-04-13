@@ -1045,5 +1045,5 @@ async def admin_error(interaction: discord.Interaction, error: app_commands.AppC
         await interaction.response.send_message(f":warning: 오류: {error}", ephemeral=True)
 
 if __name__ == "__main__":
-TOKEN = os.getenv("TOKEN")
-bot.run(TOKEN)
+    TOKEN = os.getenv("TOKEN")
+    bot.run(TOKEN)
